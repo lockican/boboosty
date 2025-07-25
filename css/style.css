@@ -230,3 +230,30 @@ body {
     padding: 10px;
     color: #242b2c;
 }
+
+.grid_navigation{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 15px;
+    border: 1px solid #ececec;
+}
+
+.grid_navigation .grid_button svg{
+    width: 20px;
+    height: 20px;
+}
+
+.grid_navigation .grid_button{
+    border: none;
+    padding: 0;
+    color: #242b2c;
+    gap: 20px;
+}
+
+.grid_navigation .grid_button.active{
+   border-bottom: 2px solid #03c3e9; 
+   border-radius: 0;
+   padding: 10px 0 ;
+}
