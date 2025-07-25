@@ -21,7 +21,7 @@ body {
     top: 0;
     background-color: #fff;
     border-bottom: 1px solid #eaeaea;
-    z-index: 1;
+    z-index: 10;
 }
 
 .bg-cover{
@@ -236,11 +236,11 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 1px solid #ececec;
 }
 
-.grid_navigation .grid_button svg{
+.grid_button svg{
     width: 20px;
     height: 20px;
 }
@@ -256,4 +256,81 @@ body {
    border-bottom: 2px solid #03c3e9; 
    border-radius: 0;
    padding: 10px 0 ;
+}
+
+.content_wrapper{
+    margin: 20px 0;
+}
+
+.content_block{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.content_info,.content_inner{position: relative;}
+.content_inner{z-index: 1;}
+
+.content_info{
+    height: 625px;
+    padding: 30px;
+}
+
+.content_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 625px;
+}
+
+.content_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.content_top-info{
+    padding: 16px;
+}
+
+.content_inner{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+       color: #fff;
+}
+
+.content_level{
+    margin: 0 auto;
+    margin-top: auto;
+}
+
+.content_title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.content_desc{
+    font-size: 14px;
+}
+
+.content_level_title{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.content_level_count{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ 
+
+.content_footer .grid_button .button{
+    border:none
 }
