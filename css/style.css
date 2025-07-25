@@ -8,6 +8,7 @@ body {
     font-family: Inter, Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
+    background-color: #f6f6f6;
     color: #000;;
 }
 
@@ -99,6 +100,11 @@ body {
 
 .grid_block_content{
     width: 576px;
+    padding: 0 50px;
+}
+
+.grid_block_content,.grid_block_level{
+    padding-top: 20px;
 }
 
 .grid_block_content .grid_block_img img{
@@ -156,6 +162,7 @@ body {
     border: 1px solid #ececec;
     width: 100%;
     border-radius: 15px;
+    background-color: #fff;
     text-align: center;
 }
 
@@ -201,7 +208,25 @@ body {
     width: 50%;
     justify-content: center;
 }
+ 
+.grid_block-title{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #242b2c;
+    margin-bottom: 20px;
+}
 
-.grid_block_content{
-    padding: 0 50px;
+.grid_desc{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ececec;
+    margin-bottom: 20px;
+}
+
+.grid_desc_text{
+    font-size: 14px;
+    padding: 10px;
+    color: #242b2c;
 }
