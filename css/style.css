@@ -357,3 +357,29 @@ body {
 .level_price,.level_desc{
     margin-bottom: 10px;
 }
+
+@media(max-width:990px){
+    .grid{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:427px){
+    .button--registration{
+        display: none;
+    }
+
+    .grid_block_author{
+        top: 0;
+        margin-top: -70px;
+    }
+
+    .logo_img{
+        width: 80%;
+    }
+
+    .bg-cover {
+        height: 120px;
+    }
+}
